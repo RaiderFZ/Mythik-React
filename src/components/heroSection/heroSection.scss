@@ -1,0 +1,61 @@
+@import '../../scss/vars';
+@import '../../scss/fonts';
+@import '../../scss/normalize';
+@import '../../scss/media';
+
+.hero {
+    background-image: url(../../image/kraken.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    &-404{
+        height: 120vh;
+        padding-top: 150px;
+        padding-bottom: 140px;
+        background-image: url(../../image/egypt-404.png); 
+    }
+    .container {
+        max-width: 1140px;
+    }
+    &__wrap{
+        &--404{
+            padding-top: 50px;
+            padding-bottom: 0;
+        }
+        padding: 270px 0 130px;
+        margin: 0 auto 0;
+    }
+    &__wrap-title {
+        font-size: 80px;
+        font-family: $font-family-two;
+        color: $base-color;
+        margin-bottom: 40px;
+        max-width: 970px;
+    }
+    &__wrap-title--404{
+        text-align: center;
+        font-size: 96px;
+        margin: 0 auto 40px;
+    }
+    &__wrap-text {
+        font-size: $font-size-xs;
+        margin-bottom: 40px;
+        max-width: 970px;
+    }
+    &__wrap-text-404 {
+        text-align: center;
+        font-style: 16px;
+        width: 873px;
+        margin: 0 auto 40px;
+    }
+    &__wrap-search{
+        position: relative;
+        width: 100%;
+        max-width: 170px;
+        height: 60px;
+        border-radius: 120px;
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,48 @@
+@import '../../scss/vars';
+
+.footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin-top: 40px;
+    align-items: center;
+    background-color: $background-color;
+    height: 200px;
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+    .container {
+        max-width: 1140px;
+        
+    }
+    &-logo {
+        align-items: center;
+
+    }
+    &__nav-title {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 18px;
+        color: $red-color;
+    }
+    &__nav-link {
+        margin: 0;
+        padding: 0;
+    }
+    &__nav-link:hover{
+        color: $red-color;
+    }
+    &__rights-link{
+        height: 100%;
+        text-decoration: none;
+    }
+}
+.rights {
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+.rights:first-child{
+    margin: 18px;
+}

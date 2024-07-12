@@ -1,0 +1,65 @@
+.searhWrap{
+    position: absolute;
+    right: -70px;
+    top: 59px;
+    background: rgba($color: #1e1e1e, $alpha: .7);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 600px;
+    margin-top: 10px;
+    padding: 15px;
+    width: 600px;
+}
+.searhWrap--burger{
+    width: 250px;
+    margin-left: 30px;
+    margin-top: -10px;
+    position: static;
+}
+.SearchCard-line {
+    background-color: red;
+    margin-top: 20px;
+    display: block;
+    height: 1px;
+    width: 100%;
+}
+
+.SearchCard{
+    text-decoration: none;
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+    max-width: 600px;
+    margin: 20px 0;
+    display: flex;
+    &-title {
+        align-items: center;
+        font-size: 18px;
+        display: flex;
+    }
+    &-descript {
+        text-overflow: ellipsis;
+        font-size: 14px;
+    }
+    &-wrap {
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+    }
+    &-thumbnail {
+        object-fit: contain;
+        margin-right: 30px;
+        max-width: 150px;
+    }
+}
+
+.SearchCard--burger {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+}
+
+.SearchCard-thumbnail--burger {
+    margin-bottom: 20px;
+}

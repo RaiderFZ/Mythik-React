@@ -1,0 +1,33 @@
+@import '../../../scss/vars';
+
+.singlePage-card {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;
+    margin: 100px auto;   
+    max-width: 1140px;
+    display: flex;
+    margin: 40px auto;
+}
+
+.singlePage-title{
+    font-family: $font-family-two;
+    font-size: 64px;
+    margin-bottom: 40px;
+    color: $red-color;
+}
+.singlePage-descript{
+    font-size: 22px;
+    text-transform: none;
+    text-align: center;
+
+
+}
+.singlePage-image{
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    
+}

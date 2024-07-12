@@ -1,0 +1,58 @@
+@import '../../scss/vars';
+
+.hero {
+    background-image: url(../../image/kraken.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    &-404{
+        height: 120vh;
+        padding-top: 150px;
+        padding-bottom: 140px;
+        background-image: url(../../image/egypt-404.png); 
+    }
+    .container {
+        max-width: 1140px;
+    }
+    &__wrap{
+        &--404{
+            padding-top: 50px;
+            padding-bottom: 0;
+        }
+        padding: 270px 0 130px;
+        margin: 0 auto 0;
+    }
+    &__wrap-title {
+        font-family: $font-family-two;
+        margin-bottom: 40px;
+        color: $base-color;
+        max-width: 970px;
+        font-size: 80px;
+    }
+    &__wrap-title--404{
+        margin: 0 auto 40px;
+        text-align: center;
+        font-size: 96px;
+    }
+    &__wrap-text {
+        font-size: $font-size-xs;
+        margin-bottom: 40px;
+        max-width: 970px;
+    }
+    &__wrap-text-404 {
+        margin: 0 auto 40px;
+        text-align: center;
+        font-style: 16px;
+        width: 873px;
+    }
+    &__wrap-search{
+        border-radius: 120px;
+        position: relative;
+        margin-left: 20px;
+        max-width: 170px;
+        height: 60px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+@import '../../../scss/vars';
+@import '../../../scss/media';
+
+.singlePage-card {
+    max-width: 1140px;
+    margin: 100px auto;     
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+}
+.singlePage-title{
+    font-family: $font-family-two;
+    font-size: 64px;
+    margin-bottom: 40px;
+    color: $red-color;
+}
+.singlePage-descript{
+    font-size: 22px;
+    text-transform: none;
+    text-align: center;
+    margin: 20px auto;
+}
+.singlePage-image{
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}

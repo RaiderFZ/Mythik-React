@@ -1,0 +1,45 @@
+@import './scss/normalize';
+@import './scss/fonts';
+@import './scss/media';
+@import './scss/vars';
+
+// ======== GENERAL =========
+.font-monsterat {
+  font-family: "Montserrat";
+}
+
+.font-plaza {
+  font-family: "plaza-s3-k-title-card-font-c";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: $base-color;
+}
+
+body{
+  background-color: $background-color;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+}
+
+::selection {
+  background: rgba($color: #D91400, $alpha: 0.50); 
+}
+
+// Switch Theme
+.white {
+  color:#3F3F3F !important;
+  background-color: #fff !important;
+}
+
+.dark {
+  color: #fff !important;
+  background-color: #1E1E1E !important;
+}

@@ -1,0 +1,60 @@
+@import '../../scss/vars';
+
+.about {
+    margin-top: 120px;
+    .container {
+        max-width: 1140px;
+    }
+    &__wrap-title {
+        line-height: 73.14px;
+        margin-bottom: 40px;
+        font-weight: 900;
+        font-size: 60px;
+    }
+    &__wrap-text {
+
+        line-height: 29.26px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 24px;
+        span {
+            line-height: 29.26px;
+            color: $red-color;
+            font-weight: 400;
+            font-size: 24px;
+        }
+    }
+    &__wrap-subtitle {
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48.76px;
+        margin-bottom: 40px;
+    }
+    &__description {
+        margin-top: 80px;
+        text-align: center;
+        margin-bottom: 160px;
+    }
+    &__description-text {
+        font-size: 24px;
+        line-height: 29.26px;
+        font-weight: 400;
+        margin-bottom: 50px;
+        span {
+            color: $red-color;
+            font-size: 24px;
+            line-height: 29.26px;
+            font-weight: 400;
+        }
+    }
+    &__description-logo {
+        position: relative;
+    }
+    &__description-logo::before {
+        background-image: url(../../image/logo-2.svg);
+        left: 46%;
+        width: 100px;
+        height: 118px;
+        position: absolute;
+    }
+}
