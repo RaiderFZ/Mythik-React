@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mythik-React/static/css/main.3d3772e3.css",
-    "main.js": "/Mythik-React/static/js/main.947f9e67.js",
+    "main.js": "/Mythik-React/static/js/main.b35bb1a5.js",
     "static/media/video-1.mp4": "/Mythik-React/static/media/video-1.025f17cfc8d776ba6c72.mp4",
     "static/media/video-2.mp4": "/Mythik-React/static/media/video-2.f0451e9e45a1f70e09a7.mp4",
     "static/media/video-4.mp4": "/Mythik-React/static/media/video-4.983097c16103fd79f27f.mp4",
@@ -38,10 +38,10 @@
     "static/media/plaza-s3-k-title-card-font-c.woff2": "/Mythik-React/static/media/plaza-s3-k-title-card-font-c.942d0c7ec139b13de390.woff2",
     "index.html": "/Mythik-React/index.html",
     "main.3d3772e3.css.map": "/Mythik-React/static/css/main.3d3772e3.css.map",
-    "main.947f9e67.js.map": "/Mythik-React/static/js/main.947f9e67.js.map"
+    "main.b35bb1a5.js.map": "/Mythik-React/static/js/main.b35bb1a5.js.map"
   },
   "entrypoints": [
     "static/css/main.3d3772e3.css",
-    "static/js/main.947f9e67.js"
+    "static/js/main.b35bb1a5.js"
   ]
 }
